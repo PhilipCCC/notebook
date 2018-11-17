@@ -1,0 +1,24 @@
+* BEGIN SRC 示例
+** a
+#+BEGIN_SRC emacs-lisp
+  (+ 2 2)
+  (require 'recentf);;引入一个文件
+  delete-selection-mode 选中后再输入新的字符，就会替换调选中部分
+#+END_SRC
+#+BEGIN_SRC emacs-lisp
+  输入<s然后按tab键就可以自动生成begin src
+#+END_SRC
+** 47:40处说明了怎么修改company来配置补全
+1. abc
+2. bcd
+3. def
+4. abcd
+5. asdda
+6. asd
+7. a
+
+** 56:17讲的是smartparent 匹配双引号和括号
+可以用smart-globalmode开启 详情看网页
+
+** DONE abc 72:00
+   SCHEDULED: <2018-11-16 五 08:00>
